@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="TextView_height">100dp</dimen>
+    <dimen name="TextView_TextSize" tools:ignore="MissingDefaultResource">25dp</dimen>
+    <dimen name="TextView_cont_Size">43dp</dimen>
+</resources>

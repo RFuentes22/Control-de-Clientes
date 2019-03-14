@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Control de clientes</string>
+    <string name="TextView_Entran">Entran</string>
+    <string name="TextView_Salen">Salen</string>
+    <string name="Button_text">Add</string>
+    <string name="Initial_Count">0</string>
+    <string name="Initial_Count2">0</string>
 </resources>

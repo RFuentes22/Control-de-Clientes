@@ -17,17 +17,22 @@
         >
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="Entran" />
+            android:layout_height="@dimen/TextView_height"
+            android:text="@string/TextView_Entran"
+            android:textSize="@dimen/TextView_TextSize"/>
         <TextView
+            android:id="@+id/textEntrar"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="0"/>
+            android:layout_height="@dimen/TextView_height"
+            android:text="@string/Initial_Count"
+            android:textSize="@dimen/TextView_cont_Size"/>
         <Button
             android:id="@+id/entran"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add"
+            android:onClick="onClick"
+            android:text="@string/Button_text"
+            android:background="@color/colorPrimary"
             />
 
     </LinearLayout>
@@ -41,17 +46,23 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="Salen" />
+            android:layout_height="@dimen/TextView_height"
+            android:text="@string/TextView_Salen"
+            android:textSize="@dimen/TextView_TextSize"
+            />
         <TextView
+            android:id="@+id/textSalir"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="0"/>
+            android:layout_height="@dimen/TextView_height"
+            android:text="@string/Initial_Count"
+            android:textSize="@dimen/TextView_cont_Size"/>
         <Button
             android:id="@+id/salen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add" />
+            android:onClick="onClick"
+            android:text="@string/Button_text"
+            android:background="@color/colorPrimary"/>
     </LinearLayout>
 
 
